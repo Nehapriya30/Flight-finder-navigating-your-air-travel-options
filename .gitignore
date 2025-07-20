@@ -1,1 +1,10 @@
-*.env
+# Ignore node_modules
+node_modules/
+
+# Ignore env file
+.env
+
+# Optional (recommended):
+logs/
+.DS_Store
+*.log
